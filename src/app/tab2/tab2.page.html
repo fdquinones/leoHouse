@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Habitaciones
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let item of items">
+      <ion-label>
+          LUZ - {{lucesDB[item.key]}}
+      </ion-label>
+      <ion-toggle color="warning" [(ngModel)]="item.value" (ionChange)="actualizarLuz(item.key, item.value)"></ion-toggle>
+    </ion-item>
+  </ion-list>
+</ion-content>
