@@ -19,7 +19,7 @@ export class Tab2Page {
   };
 
   constructor(public db: AngularFireDatabase) {
-    db.list('luces').snapshotChanges().pipe(
+    db.list('luces/states').snapshotChanges().pipe(
       map(actions =>
         actions.map(a => ({ key: a.key, value: a.payload.val() }))
       )).subscribe(data => {

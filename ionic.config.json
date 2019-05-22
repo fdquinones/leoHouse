@@ -1,13 +1,7 @@
 {
   "name": "leoHouse",
-<<<<<<< HEAD
-  "integrations": {},
-  "type": "angular",
-  "id": "93f02d61"
-=======
   "integrations": {
     "cordova": {}
   },
   "type": "angular"
->>>>>>> 1cd5e46dc8ef4a32d4b5ca8b1dd1608fe0092029
 }
