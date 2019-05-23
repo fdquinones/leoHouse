@@ -29,6 +29,6 @@ export class Tab2Page {
   }
 
   actualizarLuz(key: number, estado: boolean) {
-    this.db.database.ref('luces/' + key).set(estado);
+    this.db.database.ref('luces/states/' + key).set(estado);
   }
 }
