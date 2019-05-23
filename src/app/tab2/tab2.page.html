@@ -1,14 +1,16 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Habitaciones
+       Habitaciones
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content >
+    <ion-progress-bar *ngIf="items==null"  color="primary" type="indeterminate">
+    </ion-progress-bar>
   <ion-list>
-    <ion-item lines="none" *ngFor="let item of items">
+    <ion-item lines="full"  *ngFor="let item of items" style="width: 90%; height: 90%; margin-left: 5%">
         <ion-avatar slot="start">
             <img src="assets/iconofoco.png">
           </ion-avatar>
