@@ -237,7 +237,7 @@ AlignetVPOS2={
 			}
 		})
 		if(AlignetVPOS2.isSafari()){
-			var win=window.open(me.urlBase+me.context+'/faces/pages/safariEntry.xhtml','_blank ','height=100px,width=100px,top=9999px,left=9999px');
+			var win=window.open(me.urlBase+me.context+'/faces/pages/safariEntry.xhtml','','height=100px,width=100px,top=9999px,left=9999px');
 			//win.opener.focus();
 			setTimeout(function(){
 				win.close();
