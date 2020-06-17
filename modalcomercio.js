@@ -241,7 +241,7 @@ AlignetVPOS2={
 			//var win=window.open();
 			  var win = window.open('about:blank','windowname','height=100px,width=100px,top=9999px,left=9999px');
 			//win.opener.focus();
-			win.location = me.urlBase+me.context+'/faces/pages/safariEntry.xhtml';
+			//win.location = me.urlBase+me.context+'/faces/pages/safariEntry.xhtml';
 			setTimeout(function(){
 				win.close();
 			},2000);
